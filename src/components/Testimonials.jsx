@@ -8,13 +8,12 @@ function Testimonials() {
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">
-              <h4>Reviewed by People</h4>
-              <h2>Client's Testimonials</h2>
+              <h4>Évalué par les Personnes</h4>
+              <h2>Témoignages des Clients</h2>
               <p>
-                Discover the positive impact we've made on the our clients by
-                reading through their testimonials. Our clients have experienced
-                our service and results, and they're eager to share their
-                positive experiences with you.
+                Découvrez l'impact positif que nous avons eu sur nos clients en lisant leurs témoignages.
+                Nos clients ont vécu notre service et nos résultats, et ils sont impatients de partager leurs
+                expériences positives avec vous.
               </p>
             </div>
 
@@ -24,16 +23,15 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                  "Nous avons loué une voiture sur ce site web et avons eu une expérience incroyable !
+                  La réservation a été facile et les tarifs de location étaient très abordables."
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Jones Mbogholi</h4>
-                      <p>Kenya</p>
+                      <h4>Hamza El mekkaoui</h4>
+                      <p>Casablanca</p>
                     </span>
                   </div>
                 </div>
@@ -44,15 +42,15 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                  "La voiture était en excellent état et a rendu notre voyage encore meilleur.
+                  Je recommande vivement ce site web de location de voiture !"
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Solomon Odingo </h4>
-                      <p>South Sudan</p>
+                      <h4>Badreddine Saadoui </h4>
+                      <p>Casablanca</p>
                     </span>
                   </div>
                 </div>

@@ -20,27 +20,27 @@ function Navbar() {
           <ul className="mobile-navbar__links">
             <li>
               <Link onClick={openNav} to="/">
-                Home
+                Accueil
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/about">
-                About
+                À Propos
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/models">
-                Models
+                Modèles de Véhicules
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/testimonials">
-                Testimonials
+                Témoignages
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/team">
-                Our Team
+                Notre Équipe
               </Link>
             </li>
             <li>
@@ -62,31 +62,31 @@ function Navbar() {
           <ul className="navbar__links">
             <li>
               <Link className="home-link" to="/">
-                Home
+                Accueil
               </Link>
             </li>
             <li>
               {" "}
               <Link className="about-link" to="/about">
-                About
+                À Propos
               </Link>
             </li>
             <li>
               {" "}
               <Link className="models-link" to="/models">
-                Vehicle Models
+                Modèles de Véhicules
               </Link>
             </li>
             <li>
               {" "}
               <Link className="testi-link" to="/testimonials">
-                Testimonials
+                Témoignages
               </Link>
             </li>
             <li>
               {" "}
               <Link className="team-link" to="/team">
-                Our Team
+                Notre Équipe
               </Link>
             </li>
             <li>
@@ -98,10 +98,10 @@ function Navbar() {
           </ul>
           <div className="navbar__buttons">
             <Link className="navbar__buttons__sign-in" to="/">
-              Sign In
+              Connexion
             </Link>
             <Link className="navbar__buttons__register" to="/">
-              Register
+              S'inscrire
             </Link>
           </div>
 

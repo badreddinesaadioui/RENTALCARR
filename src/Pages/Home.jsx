@@ -20,7 +20,6 @@ function Home() {
       <ChooseUs />
       <Testimonials />
       <Faq />
-      <Download />
       <Footer />
     </>
   );

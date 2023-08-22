@@ -162,25 +162,25 @@ function BookCar() {
         <div className="container">
           <div className="book-content">
             <div className="book-content__box">
-              <h2>Book a car</h2>
+              <h2>Réserver une voiture</h2>
 
               <p className="error-message">
-                All fields required! <i className="fa-solid fa-xmark"></i>
+                Tous les champs sont obligatoires ! <i className="fa-solid fa-xmark"></i>
               </p>
 
               <p className="booking-done">
-                Check your email to confirm an order.{" "}
+                Consultez votre e-mail pour confirmer la commande.{" "}
                 <i onClick={hideMessage} className="fa-solid fa-xmark"></i>
               </p>
 
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Car
-                    Type <b>*</b>
+                    <i className="fa-solid fa-car"></i> &nbsp; Sélectionnez Votre
+                    Type de Voiture <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
-                    <option>Select your car type</option>
+                    <option>Sélectionnez votre type de voiture</option>
                     <option value="Audi A1 S-Line">Audi A1 S-Line</option>
                     <option value="VW Golf 6">VW Golf 6</option>
                     <option value="Toyota Camry">Toyota Camry</option>
@@ -194,38 +194,39 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Restitution{" "}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
-                    <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Sélectionnez le lieu de restitution</option>
+                    <option>Sélectionnez le lieu de retour</option>
+                    <option>Aéroport Mohammed V de Casablanca</option>
+                    <option>Centre-ville de Casablanca</option>
+                    <option>Gare Casa-Voyageurs</option>
+                    <option>Maarif</option>
+                    <option>Plage de la Corniche</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-of{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Retour{" "}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
-                    <option>Select drop off location</option>
-                    <option>Novi Sad</option>
-                    <option>Belgrade</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Sélectionnez le lieu de retour</option>
+                    <option>Aéroport Mohammed V de Casablanca</option>
+                    <option>Centre-ville de Casablanca</option>
+                    <option>Gare Casa-Voyageurs</option>
+                    <option>Maarif</option>
+                    <option>Plage de la Corniche</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-time">
                   <label htmlFor="picktime">
                     <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                    Pick-up <b>*</b>
+                    Heure de Restitution <b>*</b>
                   </label>
                   <input
                     id="picktime"
@@ -238,7 +239,7 @@ function BookCar() {
                 <div className="box-form__car-time">
                   <label htmlFor="droptime">
                     <i className="fa-regular fa-calendar-days "></i> &nbsp;
-                    Drop-of <b>*</b>
+                   Heure de Retour <b>*</b>
                   </label>
                   <input
                     id="droptime"
@@ -249,7 +250,7 @@ function BookCar() {
                 </div>
 
                 <button onClick={openModal} type="submit">
-                  Search
+                  Rechercher
                 </button>
               </form>
             </div>
@@ -262,29 +263,29 @@ function BookCar() {
       <div className={`booking-modal ${modal ? "active-modal" : ""}`}>
         {/* title */}
         <div className="booking-modal__title">
-          <h2>Complete Reservation</h2>
+          <h2>Compléter la Réservation</h2>
           <i onClick={openModal} className="fa-solid fa-xmark"></i>
         </div>
         {/* message */}
         <div className="booking-modal__message">
           <h4>
-            <i className="fa-solid fa-circle-info"></i> Upon completing this
-            reservation enquiry, you will receive:
+            <i className="fa-solid fa-circle-info"></i> En complétant cette
+            demande de réservation, vous recevrez :
           </h4>
           <p>
-            Your rental voucher to produce on arrival at the rental desk and a
-            toll-free customer support number.
+            Votre bon de location à présenter à l'accueil de location et un
+            numéro de support client gratuit.
           </p>
         </div>
         {/* car info */}
         <div className="booking-modal__car-info">
           <div className="dates-div">
             <div className="booking-modal__car-info__dates">
-              <h5>Location & Date</h5>
+              <h5>Lieu & Date</h5>
               <span>
                 <i className="fa-solid fa-location-dot"></i>
                 <div>
-                  <h6>Pick-Up Date & Time</h6>
+                  <h6>Heure de Restitution</h6>
                   <p>
                     {pickTime} /{" "}
                     <input type="time" className="input-time"></input>
@@ -297,7 +298,7 @@ function BookCar() {
               <span>
                 <i className="fa-solid fa-location-dot"></i>
                 <div>
-                  <h6>Drop-Off Date & Time</h6>
+                  <h6>Date & Heure de Retour</h6>
                   <p>
                     {dropTime} /{" "}
                     <input type="time" className="input-time"></input>
@@ -310,7 +311,7 @@ function BookCar() {
               <span>
                 <i className="fa-solid fa-calendar-days"></i>
                 <div>
-                  <h6>Pick-Up Location</h6>
+                  <h6>Lieu de Restitution</h6>
                   <p>{pickUp}</p>
                 </div>
               </span>
@@ -320,7 +321,7 @@ function BookCar() {
               <span>
                 <i className="fa-solid fa-calendar-days"></i>
                 <div>
-                  <h6>Drop-Off Location</h6>
+                  <h6>Lieu de Retour</h6>
                   <p>{dropOff}</p>
                 </div>
               </span>
@@ -328,27 +329,27 @@ function BookCar() {
           </div>
           <div className="booking-modal__car-info__model">
             <h5>
-              <span>Car -</span> {carType}
+              <span>Voiture  -</span> {carType}
             </h5>
             {imgUrl && <img src={imgUrl} alt="car_img" />}
           </div>
         </div>
         {/* personal info */}
         <div className="booking-modal__person-info">
-          <h4>Personal Information</h4>
+          <h4>Informations Personnelles</h4>
           <form className="info-form">
             <div className="info-form__2col">
               <span>
                 <label>
-                  First Name <b>*</b>
+                  Prénom <b>*</b>
                 </label>
                 <input
                   value={name}
                   onChange={handleName}
                   type="text"
-                  placeholder="Enter your first name"
+                  placeholder="Entrez votre prénom"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">Ce champ est obligatoire.</p>
               </span>
 
               <span>
@@ -359,22 +360,22 @@ function BookCar() {
                   value={lastName}
                   onChange={handleLastName}
                   type="text"
-                  placeholder="Enter your last name"
+                  placeholder="Entrez votre nom de famille"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">Ce champ est obligatoire.</p>
               </span>
 
               <span>
                 <label>
-                  Phone Number <b>*</b>
+                  Numéro de Téléphone <b>*</b>
                 </label>
                 <input
                   value={phone}
                   onChange={handlePhone}
                   type="tel"
-                  placeholder="Enter your phone number"
+                  placeholder="Entrez votre numéro de téléphone"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">Ce champ est obligatoire.</p>
               </span>
 
               <span>
@@ -387,7 +388,7 @@ function BookCar() {
                   type="number"
                   placeholder="18"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">Ce champ est obligatoire.</p>
               </span>
             </div>
 
@@ -400,9 +401,9 @@ function BookCar() {
                   value={email}
                   onChange={handleEmail}
                   type="email"
-                  placeholder="Enter your email address"
+                  placeholder="Entrez votre adresse e-mail"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">Ce champ est obligatoire.</p>
               </span>
 
               <span>
@@ -413,9 +414,9 @@ function BookCar() {
                   value={address}
                   onChange={handleAddress}
                   type="text"
-                  placeholder="Enter your street address"
+                  placeholder="Entrez votre adresse"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">Ce champ est obligatoire.</p>
               </span>
             </div>
 
@@ -428,9 +429,9 @@ function BookCar() {
                   value={city}
                   onChange={handleCity}
                   type="text"
-                  placeholder="Enter your city"
+                  placeholder="Entrez votre ville"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">Ce champ est obligatoire.</p>
               </span>
 
               <span>
@@ -441,19 +442,19 @@ function BookCar() {
                   value={zipcode}
                   onChange={handleZip}
                   type="text"
-                  placeholder="Enter your zip code"
+                  placeholder="Entrez votre code postal"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">Ce champ est obligatoire.</p>
               </span>
             </div>
 
             <span className="info-form__checkbox">
               <input type="checkbox"></input>
-              <p>Please send me latest news and updates</p>
+              <p>Veuillez m'envoyer les dernières nouvelles et mises à jour</p>
             </span>
 
             <div className="reserve-button">
-              <button onClick={confirmBooking}>Reserve Now</button>
+              <button onClick={confirmBooking}>Réserver Maintenant</button>
             </div>
           </form>
         </div>

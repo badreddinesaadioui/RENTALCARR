@@ -177,7 +177,7 @@ function BookCar() {
                 <div className="box-form__car-type">
                   <label>
                     <i className="fa-solid fa-car"></i> &nbsp; Sélectionnez Votre
-                    Type de Voiture <b>*</b>
+                    Voiture <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
                     <option>Sélectionnez votre type de voiture</option>
@@ -199,7 +199,6 @@ function BookCar() {
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Sélectionnez le lieu de restitution</option>
-                    <option>Sélectionnez le lieu de retour</option>
                     <option>Aéroport Mohammed V de Casablanca</option>
                     <option>Centre-ville de Casablanca</option>
                     <option>Gare Casa-Voyageurs</option>
@@ -354,7 +353,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Last Name <b>*</b>
+                  Nom de famille <b>*</b>
                 </label>
                 <input
                   value={lastName}
@@ -408,7 +407,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Address <b>*</b>
+                  Addresse <b>*</b>
                 </label>
                 <input
                   value={address}
@@ -423,7 +422,7 @@ function BookCar() {
             <div className="info-form__2col">
               <span>
                 <label>
-                  City <b>*</b>
+                  Ville <b>*</b>
                 </label>
                 <input
                   value={city}

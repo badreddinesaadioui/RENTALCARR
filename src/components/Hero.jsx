@@ -37,13 +37,12 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Votre site personalisé</h4>
               <h1>
-                Save <span>big</span> with our car rental
+                Élevez votre présence en ligne avec <span>GrowStudio</span> 
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+                Laissez-nous créer votre site avec présentation des véhicules, réservations en ligne, commandes vers votre boîte mail. Personnalisation au logo et à votre identité de marque assurée.
               </p>
               <div className="hero-content__text__btns">
                 <Link
@@ -51,10 +50,10 @@ function Hero() {
                   className="hero-content__text__btns__book-ride"
                   to="/"
                 >
-                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
+                  Réserver une voiture &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
-                  Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
+                  Savoir plus &nbsp; <i className="fa-solid fa-angle-right"></i>
                 </Link>
               </div>
             </div>

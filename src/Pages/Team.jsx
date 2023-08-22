@@ -9,12 +9,12 @@ import Person6 from "../images/team/6.png";
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
-    { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person1, name: "Badreddine Saadioui", job: "Salesman" },
+    { img: Person2, name: "Mounim Saadioui", job: "Business Owner" },
+    { img: Person3, name: "Abdelmouhaimen Serhane", job: "Photographer" },
+    { img: Person4, name: "Abdellah Belkrezia", job: "Car Detailist" },
+    { img: Person5, name: "MTS AUTOMOBILE", job: "Mechanic" },
+    { img: Person6, name: "Rania Saadioui", job: "Menager" },
   ];
   return (
     <>
@@ -39,10 +39,10 @@ function Team() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Réservez une voiture en prenant contact avec nous</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+212) 687-301-564</h3>
               </span>
             </div>
           </div>

@@ -20,31 +20,31 @@ function Navbar() {
           <ul className="mobile-navbar__links">
             <li>
               <Link onClick={openNav} to="/">
-                Accueil
+                Home
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="à-propos">
-                À Propos
+              <Link onClick={openNav} to="about">
+                Abour
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="modèles">
-                Nos Véhicules
+              <Link onClick={openNav} to="Models">
+                Models
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="témoignages">
-                Témoignages
+              <Link onClick={openNav} to="TestimonialsPage">
+                TestimonialsPage
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="équipe">
-                Notre Équipe
+              <Link onClick={openNav} to="Team">
+                Team 
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="contact">
+              <Link onClick={openNav} to="Contact">
                 Contact
               </Link>
             </li>
@@ -62,31 +62,31 @@ function Navbar() {
           <ul className="navbar__links">
             <li>
               <Link className="home-link" to="/">
-                Accueil
+                Home
               </Link>
             </li>
             <li>
               {" "}
               <Link className="about-link" to="/about">
-                À Propos
+                About
               </Link>
             </li>
             <li>
               {" "}
               <Link className="models-link" to="/models">
-                Modèles de Véhicules
+                Models 
               </Link>
             </li>
             <li>
               {" "}
-              <Link className="testi-link" to="/testimonials">
-                Témoignages
+              <Link className="testi-link" to="/TestimonialPage">
+                TestimonialPage
               </Link>
             </li>
             <li>
               {" "}
               <Link className="team-link" to="/team">
-                Notre Équipe
+                Team 
               </Link>
             </li>
             <li>

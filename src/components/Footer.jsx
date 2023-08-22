@@ -32,7 +32,7 @@ function Footer() {
                 <a
                   style={{ fontSize: "14px" }}
                   target="_blank"
-                  rel="growstudio"
+                  rel="noopener noreferrer"
                   href="https://grows.studio"
                 >
                   Visitez notre site grows.studio

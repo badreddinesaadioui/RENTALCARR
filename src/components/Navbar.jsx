@@ -24,22 +24,22 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/about">
+              <Link onClick={openNav} to="/À Propos">
                 À Propos
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/models">
-                Modèles de Véhicules
+              <Link onClick={openNav} to="/modèles">
+                Nos Véhicules
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/testimonials">
+              <Link onClick={openNav} to="/témoinage">
                 Témoignages
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/team">
+              <Link onClick={openNav} to="/équipe">
                 Notre Équipe
               </Link>
             </li>

@@ -19,35 +19,31 @@ function About() {
               alt="car-renting"
             />
             <div className="about-main__text">
-              <h3>About Company</h3>
-              <h2>You start the engine and your adventure begins</h2>
+              <h3>À Propos de l'Entreprise</h3>
+              <h2>Vous démarrez le moteur et votre aventure commence</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+                Certaine mais elle, pourquoi la timidité du cottage. L'homme a mis l'instrument monsieur implorant des affronts. Prétendument exquis vous voyez cordialement. Semaines tranquilles à faire vexé ou à qui. Immobilisé s'il n'y a pas d'imprudence affrontante, aucune précaution. Mon indulgence à disposition assistée avec force.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
                   <img src={Box1} alt="car-icon" />
                   <span>
                     <h4>20</h4>
-                    <p>Car Types</p>
+                    <p>Types de Voitures</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Box2} alt="car-icon" />
                   <span>
-                    <h4>85</h4>
-                    <p>Rental Outlets</p>
+                     <h4>85</h4>
+                    <p>Points de Location</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Box3} alt="car-icon" className="last-fk" />
                   <span>
                     <h4>75</h4>
-                    <p>Repair Shop</p>
+                    <p>Ateliers de Réparation</p>
                   </span>
                 </div>
               </div>
@@ -60,10 +56,10 @@ function About() {
         <div className="book-banner__overlay"></div>
         <div className="container">
           <div className="text-content">
-            <h2>Book a car by getting in touch with us</h2>
+            <h2>Réservez une voiture en nous contactant</h2>
             <span>
               <i className="fa-solid fa-phone"></i>
-              <h3>(123) 456-7869</h3>
+              <h3>(+212) 687-301-564</h3>
             </span>
           </div>
         </div>

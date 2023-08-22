@@ -52,7 +52,7 @@ function Footer() {
                 <a href="#testimonials">temoignages</a>
               </li>
               <li>
-                <a href="#contact">Contctez Nous</a>
+                <a href="#contact">Contactez Nous</a>
               </li>
               <li>
                 <a href="#team">Notre équipe</a>

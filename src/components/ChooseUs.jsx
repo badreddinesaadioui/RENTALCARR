@@ -16,18 +16,17 @@ function ChooseUs() {
             />
             <div className="text-container">
               <div className="text-container__left">
-                <h4>Why Choose Us</h4>
-                <h2>Best valued deals you will ever find</h2>
+                <h4>Pourquoi Nous Choisir</h4>
+                <h2>Les meilleures offres que vous trouverez jamais</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
-                  for your money, so you can enjoy top-quality services and
-                  products without breaking the bank. Our deals are designed to
-                  give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                  Découvrez les meilleures offres que vous trouverez jamais avec nos offres imbattables.
+                  Nous sommes dédiés à vous fournir la meilleure valeur pour votre argent, afin que vous
+                  puissiez profiter de services et de produits de haute qualité sans vous ruiner.
+                  Nos offres sont conçues pour vous offrir l'expérience ultime de la location, alors ne manquez
+                  pas votre chance de faire des économies importantes.
                 </p>
                 <a href="#home">
-                  Find Details &nbsp;
+                  Trouver les Détails &nbsp;
                   <i className="fa-solid fa-angle-right"></i>
                 </a>
               </div>
@@ -35,10 +34,10 @@ function ChooseUs() {
                 <div className="text-container__right__box">
                   <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
-                    <h4>Cross Country Drive</h4>
+                    <h4>Voyages à Travers le Pays</h4>
                     <p>
-                      Take your driving experience to the next level with our
-                      top-notch vehicles for your cross-country adventures.
+                      Emportez votre expérience de conduite au niveau supérieur avec nos véhicules haut de gamme pour
+                      vos aventures à travers le pays.
                     </p>
                   </div>
                 </div>
@@ -46,10 +45,10 @@ function ChooseUs() {
                   {" "}
                   <img src={Box2} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>All Inclusive Pricing</h4>
+                    <h4>Tarification Tout Compris</h4>
                     <p>
-                      Get everything you need in one convenient, transparent
-                      price with our all-inclusive pricing policy.
+                      Obtenez tout ce dont vous avez besoin dans un prix pratique et transparent avec notre politique
+                      de tarification tout compris.
                     </p>
                   </div>
                 </div>
@@ -57,10 +56,10 @@ function ChooseUs() {
                   {" "}
                   <img src={Box3} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>No Hidden Charges</h4>
+                    <h4>Pas de Frais Cachés</h4>
                     <p>
-                      Enjoy peace of mind with our no hidden charges policy. We
-                      believe in transparent and honest pricing.
+                      Profitez de la tranquillité d'esprit avec notre politique sans frais cachés.
+                      Nous croyons en une tarification transparente et honnête.
                     </p>
                   </div>
                 </div>

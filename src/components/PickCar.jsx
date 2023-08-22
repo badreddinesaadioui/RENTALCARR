@@ -20,15 +20,15 @@ function PickCar() {
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
-              <h3>Vehicle Models</h3>
-              <h2>Our rental fleet</h2>
+              <h3>Modèles de véhicules</h3>
+              <h2>Notre flotte de location</h2>
               <p>
-                Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
+                Choisissez parmi une variété de nos incroyables véhicules à louer pour votre
+                prochaine aventure ou voyage d'affaires.
               </p>
             </div>
             <div className="pick-container__car-content">
-              {/* pick car */}
+              {/* Choisir une voiture*/}
               <div className="pick-box">
                 <button
                   className={`${coloringButton("btn1")}`}

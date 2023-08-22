@@ -9,8 +9,7 @@ function Footer() {
                 <span>CAR</span> Rental
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+Nous proposons une vaste gamme de véhicules pour tous vos besoins en conduite. Nous avons la voiture parfaite pour répondre à vos besoins.
               </li>
               <li>
                 <a href="tel:0687301564">
@@ -43,19 +42,19 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Entreprise</li>
               <li>
-                <a href="#about">A-propos</a>
+                <a href="about">À-propos</a>
               </li>
               <li>
-                <a href="#models">Modèles de voitures</a>
+                <a href="models">Modèles de voitures</a>
               </li>
               <li>
-                <a href="#testimonials">temoignages</a>
+                <a href="testimonialspage">témoignages</a>
               </li>
               <li>
-                <a href="#contact">Contactez Nous</a>
+                <a href="contact">Contactez Nous</a>
               </li>
               <li>
-                <a href="#team">Notre équipe</a>
+                <a href="team">Notre équipe</a>
               </li>
             </ul>
 

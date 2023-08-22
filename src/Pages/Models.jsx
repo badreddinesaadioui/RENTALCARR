@@ -31,8 +31,8 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$45</h4>
-                      <p>per day</p>
+                      <h4>450 dh</h4>
+                      <p>par jour</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
@@ -43,7 +43,7 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Manuelle
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -51,7 +51,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Réserver
                     </Link>
                   </div>
                 </div>
@@ -74,8 +74,8 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$37</h4>
-                      <p>per day</p>
+                      <h4>370 dh</h4>
+                      <p>par jour</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
@@ -86,7 +86,7 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Manuelle
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -94,7 +94,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Réserver
                     </Link>
                   </div>
                 </div>
@@ -117,8 +117,8 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$30</h4>
-                      <p>per day</p>
+                      <h4>300 dh</h4>
+                      <p>par jour</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
@@ -129,7 +129,7 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Manuelle
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -137,7 +137,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Réserver
                     </Link>
                   </div>
                 </div>
@@ -160,8 +160,8 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$35</h4>
-                      <p>per day</p>
+                      <h4>350 dh</h4>
+                      <p>par jour</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
@@ -172,7 +172,7 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Manuelle
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -180,7 +180,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Réserver
                     </Link>
                   </div>
                 </div>
@@ -203,8 +203,8 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$50</h4>
-                      <p>per day</p>
+                      <h4>500 dh</h4>
+                      <p>par jour</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
@@ -215,7 +215,7 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Manuelle
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -223,7 +223,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Réserver
                     </Link>
                   </div>
                 </div>
@@ -246,8 +246,8 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$25</h4>
-                      <p>per day</p>
+                      <h4>350 dh</h4>
+                      <p>par jour</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
@@ -258,7 +258,7 @@ function Models() {
                       4/5 &nbsp; <i className="fa-solid fa-car-side"></i>
                     </span>
                     <span>
-                      <i className="fa-solid fa-car-side"></i> &nbsp; Manual
+                      <i className="fa-solid fa-car-side"></i> &nbsp; Manuelle
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <i className="fa-solid fa-car-side"></i>
@@ -266,7 +266,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Réserver
                     </Link>
                   </div>
                 </div>
@@ -278,10 +278,10 @@ function Models() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+               <h2>Réservez une voiture en nous contactant</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>(+212) 687-301-564</h3>
               </span>
             </div>
           </div>

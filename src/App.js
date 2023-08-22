@@ -14,11 +14,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route index path="/" element={<Home />} />
-        <Route path="à-propos" element={<About />} />
-        <Route path="modèles" element={<Models />} />
-        <Route path="témoignages" element={<TestimonialsPage />} />
-        <Route path="équipe" element={<Team />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="About" element={<About />} />
+        <Route path="Models" element={<Models />} />
+        <Route path="TestimonialsPage" element={<TestimonialsPage />} />
+        <Route path="Team" element={<Team />} />
+          <Route path="Contact" element={<Contact />} />
       </Routes>
     </>
   );

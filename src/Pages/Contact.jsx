@@ -9,30 +9,28 @@ function Contact() {
         <div className="container">
           <div className="contact-div">
             <div className="contact-div__text">
-              <h2>Need additional information?</h2>
+              <h2>Besoin d'informations supplémentaires ?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+                Un professionnel polyvalent expert dans plusieurs domaines de recherche, de développement ainsi qu'un spécialiste de l'apprentissage. Plus de 15 ans d'expérience.
               </p>
               <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
+                <i className="fa-solid fa-phone"></i>&nbsp; 0687301564
               </a>
               <a href="/">
                 <i className="fa-solid fa-envelope"></i>&nbsp;
-                carrental@carmail.com
+                growstudio.ma@gmail.com
               </a>
               <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Belgrade,
-                Serbia
+                <i className="fa-solid fa-location-dot"></i>&nbsp; Casablanca,
+                Maroc
               </a>
             </div>
             <div className="contact-div__form">
               <form>
                 <label>
-                  Full Name <b>*</b>
+                  Nom complet<b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='E.g: "Badreddine Saadioui"'></input>
 
                 <label>
                   Email <b>*</b>
@@ -40,13 +38,12 @@ function Contact() {
                 <input type="email" placeholder="youremail@example.com"></input>
 
                 <label>
-                  Tell us about it <b>*</b>
+                  Parlez-nous en <b>*</b>
                 </label>
-                <textarea placeholder="Write Here.."></textarea>
+                <textarea placeholder="Écrivez ici.."></textarea>
 
                 <button type="submit">
-                  <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Send
-                  Message
+                  <i className="fa-solid fa-envelope-open-text"></i>&nbsp; Envoyer le message
                 </button>
               </form>
             </div>
@@ -56,10 +53,10 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Réservez une voiture en entrant en contact avec nous</h2>
               <span>
                 <i className="fa-solid fa-phone"></i>
-                <h3>(123) 456-7869</h3>
+                <h3>+212 687-301-564</h3>
               </span>
             </div>
           </div>

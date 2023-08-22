@@ -21,7 +21,7 @@ function PickCar() {
           <div className="pick-container">
             <div className="pick-container__title">
               <h3>Modèles de véhicules</h3>
-              <h2>Notre flotte de location</h2>
+              <h2>Notre collection de location</h2>
               <p>
                 Choisissez parmi une variété de nos incroyables véhicules à louer pour votre
                 prochaine aventure ou voyage d'affaires.

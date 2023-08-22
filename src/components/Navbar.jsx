@@ -20,27 +20,27 @@ function Navbar() {
           <ul className="mobile-navbar__links">
             <li>
               <Link onClick={openNav} to="/">
-                Home
+                Acceuil
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="about">
-                Abour
+                À propos
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="Models">
-                Models
+                Nos voitures
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="TestimonialsPage">
-                TestimonialsPage
+                Témoinages
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="Team">
-                Team 
+                Équipe 
               </Link>
             </li>
             <li>
@@ -62,31 +62,31 @@ function Navbar() {
           <ul className="navbar__links">
             <li>
               <Link className="home-link" to="/">
-                Home
+                Acceuil
               </Link>
             </li>
             <li>
               {" "}
               <Link className="about-link" to="/about">
-                About
+                À propos
               </Link>
             </li>
             <li>
               {" "}
               <Link className="models-link" to="/models">
-                Models 
+                Nos voitures 
               </Link>
             </li>
             <li>
               {" "}
               <Link className="testi-link" to="/TestimonialPage">
-                TestimonialPage
+                Témoinages
               </Link>
             </li>
             <li>
               {" "}
               <Link className="team-link" to="/team">
-                Team 
+                Équipe 
               </Link>
             </li>
             <li>

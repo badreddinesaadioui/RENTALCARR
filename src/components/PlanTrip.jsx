@@ -16,7 +16,7 @@ function PlanTrip() {
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
                 <img src={SelectCar} alt="icon_img" />
-                <h3>Select Car</h3>
+                  <h3>Choisissez votre voiture</h3>
                 <p>
                   Nous proposons une large gamme de véhicules pour tous vos besoins de conduite.
                   Nous avons la voiture parfaite pour répondre à vos besoins.
@@ -25,7 +25,7 @@ function PlanTrip() {
 
               <div className="plan-container__boxes__box">
                 <img src={Contact} alt="icon_img" />
-                <h3>Contacter l'opérateur</h3>
+                <h3>Contactez l'opérateur</h3>
                 <p>
                   Nos opérateurs compétents et amicaux sont toujours prêts à
                   vous aider pour toutes questions ou préoccupations.
@@ -34,7 +34,7 @@ function PlanTrip() {
 
               <div className="plan-container__boxes__box">
                 <img src={Drive} alt="icon_img" />
-                <h3>En route</h3>
+                <h3>Voiture en route</h3>
                 <p>
                   Que vous preniez la route, nous vous couvrons
                   avec notre large gamme de voitures.

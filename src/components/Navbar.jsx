@@ -94,15 +94,23 @@ function Navbar() {
           </li>
         </ul>
         <div className="navbar__buttons">
-          <Link className="navbar__buttons__sign-in" to="/">
-            Connexion
-          </Link>
-          <button className="navbar__buttons__register" onClick={handleCallButton}>
+          <a
+            className="navbar__buttons__sign-in"
+            href="https://www.google.com/maps/place/Garage+M%C3%A9canique+Tolerie+Sa%C3%A2dioui+(MTS)/@33.5527909,-7.6745403,15z/data=!4m6!3m5!1s0xda62cc9888e6c9f:0x815c93684698187b!8m2!3d33.5527909!4d-7.6745403!16s%2Fg%2F11bbrmhv83?entry=ttu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Local
+          </a>
+          <a
+            className="navbar__buttons__register navbar__buttons__orange"
+            onClick={handleCallButton}
+          >
             Appelez nous
-          </button>
+          </a>
         </div>
 
-        {/* Mobile Hamburger Menu */}
+        {/* mobile */}
         <div className="mobile-hamb" onClick={openNav}>
           <i className="fa-solid fa-bars"></i>
         </div>

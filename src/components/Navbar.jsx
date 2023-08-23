@@ -9,9 +9,6 @@ function Navbar() {
     setNav(!nav);
   };
 
-  const handleCallButton = () => {
-    window.location.href = "tel:0687301564";
-  };
 
   return (
     <>
@@ -104,9 +101,9 @@ function Navbar() {
             >
               Local
             </a>
-            <button className="navbar__buttons__register" onClick={handleCallButton}>
-              Appelez nous
-            </button>
+            <a className="navbar__buttons__register" href="tel:0687301564">
+              Appelez Nous
+            </a>
           </div>
 
           {/* mobile */}

@@ -1,20 +1,20 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import Person1 from "../images/team/1.png";
-import Person2 from "../images/team/2.png";
-import Person3 from "../images/team/3.png";
-import Person4 from "../images/team/4.png";
-import Person5 from "../images/team/5.png";
-import Person6 from "../images/team/6.png";
+import Person1 from "../images/team/badr.png";
+import Person2 from "../images/team/mounim.png";
+import Person3 from "../images/team/serena.png";
+import Person4 from "../images/team/abdellah.png";
+import Person5 from "../images/team/soufiane.png";
+import Person6 from "../images/team/hamza.png";
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Badreddine Saadioui", job: "Salesman" },
-    { img: Person2, name: "Mounim Saadioui", job: "Business Owner" },
-    { img: Person3, name: "Abdelmouhaimen Serhane", job: "Photographer" },
-    { img: Person4, name: "Abdellah Belkrezia", job: "Car Detailist" },
-    { img: Person5, name: "MTS AUTOMOBILE", job: "Mechanic" },
-    { img: Person6, name: "Rania Saadioui", job: "Menager" },
+    { img: Person2, name: "Mounim Saadioui", job: "Directeur et Web Analyst" },
+    { img: Person1, name: "Badreddine Saadioui", job: "Développeur et Graphiste" },
+    { img: Person3, name: "Abdelmouhaimen Serhane", job: "Développeur Full Stack" },
+    { img: Person4, name: "Abdellah Belkrezia", job: "Spécialiste des Médias Sociaux" },
+    { img: Person5, name: "Soufiane Rahali", job: "Photographe" },
+    { img: Person6, name: "Hamza EL Mekkaoui", job: "Spécialiste SEO" },
   ];
   return (
     <>

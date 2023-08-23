@@ -13,17 +13,18 @@ function Contact() {
               <p>
                 Un professionnel polyvalent expert dans plusieurs domaines de recherche, de développement ainsi qu'un spécialiste de l'apprentissage. Plus de 15 ans d'expérience.
               </p>
-              <a href="/">
-                <i className="fa-solid fa-phone"></i>&nbsp; 0687301564
+              <a href="tel:0687301564">
+                <i class="fa-solid fa-phone"></i>&nbsp; 0687301564
               </a>
-              <a href="/">
-                <i className="fa-solid fa-envelope"></i>&nbsp;
-                growstudio.ma@gmail.com
+              <a href="mailto:growstudio.ma@gmail.com">
+                <i class="fa-solid fa-envelope"></i>&nbsp; growstudio.ma@gmail.com
               </a>
-              <a href="/">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Casablanca,
-                Maroc
+              <a href="https://www.google.com/maps/search/?q=Casablanca%2C+Maroc">
+                <i class="fa-solid fa-location-dot"></i>&nbsp; Casablanca, Maroc
               </a>
+
+
+
             </div>
             <div className="contact-div__form">
               <form>

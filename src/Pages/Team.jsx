@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import Person1 from "../images/team/badr.jpeg";
+import Person1 from "../images/team/badr.png";
 import Person2 from "../images/team/mounim.jpeg";
 import Person3 from "../images/team/serena.jpeg";
 

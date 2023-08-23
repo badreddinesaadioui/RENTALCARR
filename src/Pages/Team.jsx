@@ -1,20 +1,16 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import Person1 from "../images/team/badr.png";
-import Person2 from "../images/team/mounim.png";
-import Person3 from "../images/team/serena.png";
-import Person4 from "../images/team/abdellah.png";
-import Person5 from "../images/team/soufiane.png";
-import Person6 from "../images/team/hamza.png";
+import Person1 from "../images/team/badr.jpeg";
+import Person2 from "../images/team/mounim.jpeg";
+import Person3 from "../images/team/serena.jpeg";
+
 
 function Team() {
   const teamPpl = [
     { img: Person2, name: "Mounim Saadioui", job: "Directeur et Web Analyst" },
     { img: Person1, name: "Badreddine Saadioui", job: "Développeur et Graphiste" },
-    { img: Person3, name: "Abdelmouhaimen Serhane", job: "Développeur Full Stack" },
-    { img: Person4, name: "Abdellah Belkrezia", job: "Spécialiste des Médias Sociaux" },
-    { img: Person5, name: "Soufiane Rahali", job: "Photographe" },
-    { img: Person6, name: "Hamza EL Mekkaoui", job: "Spécialiste SEO" },
+    { img: Person3, name: "Abdelmouhaimen Serhane", job: "Développeur et Spécialiste SEO" },
+
   ];
   return (
     <>

@@ -19,7 +19,7 @@ function PlanTrip() {
                   <h3>Choisissez votre voiture</h3>
                 <p>
                   Nous proposons une large gamme de véhicules pour tous vos besoins de conduite.
-                  Nous avons la voiture parfaite pour répondre à vos besoins.
+                 
                 </p>
               </div>
 

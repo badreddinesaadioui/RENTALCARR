@@ -6,7 +6,7 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                <span>CASA</span> Location
               </li>
               <li>
 Nous proposons une vaste gamme de véhicules pour tous vos besoins en conduite. Nous avons la voiture parfaite pour répondre à vos besoins.

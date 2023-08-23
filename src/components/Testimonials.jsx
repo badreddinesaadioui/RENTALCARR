@@ -1,5 +1,5 @@
-import Img2 from "../images/testimonials/pfp1.jpg";
-import Img3 from "../images/testimonials/pfp2.jpg";
+import Img2 from "../images/testimonials/pfp1.jpeg";
+import Img3 from "../images/testimonials/pfp2.jpeg";
 
 function Testimonials() {
   return (

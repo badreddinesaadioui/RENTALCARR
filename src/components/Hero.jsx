@@ -52,9 +52,9 @@ function Hero() {
                 >
                   Réserver une voiture &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
-                <Link className="hero-content__text__btns__learn-more" to="/">
-                  Savoir plus &nbsp; <i className="fa-solid fa-angle-right"></i>
-                </Link>
+                <a className="hero-content__text__btns__learn-more" href="tel:0687301564">
+                  Appelez Nous &nbsp; <i className="fa-solid fa-angle-right"></i>
+                </a>
               </div>
             </div>
 

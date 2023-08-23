@@ -42,19 +42,19 @@ Nous proposons une vaste gamme de véhicules pour tous vos besoins en conduite. 
             <ul className="footer-content__2">
               <li>Entreprise</li>
               <li>
-                <a href="about">À-propos</a>
+                <a href="/about">À-propos</a>
               </li>
               <li>
-                <a href="models">Modèles de voitures</a>
+                <a href="/models">Modèles de voitures</a>
               </li>
               <li>
-                <a href="testimonialspage">témoignages</a>
+                <a href="/testimonialspage">témoignages</a>
               </li>
               <li>
-                <a href="contact">Contactez Nous</a>
+                <a href="/contact">Contactez Nous</a>
               </li>
               <li>
-                <a href="team">Notre équipe</a>
+                <a href="/team">Notre équipe</a>
               </li>
             </ul>
 

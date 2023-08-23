@@ -19,7 +19,7 @@ function CarBox({ data, carID }) {
           {/* description */}
           <div className="pick-description">
             <div className="pick-description__price">
-              <span>${car.price}</span>/ location par jour
+              <span>{car.price} dh</span>/ par jour
             </div>
             <div className="pick-description__table">
               <div className="pick-description__table__col">
